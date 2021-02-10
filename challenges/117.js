@@ -15,7 +15,7 @@
 //
 // To get it working, don't worry about efficiency. Later we'll learn about specialized data structures that make this simpler/efficient.
 
-function intersection(a, b){
+function intersection(a, b) {
   let set = new Set(a);
   let intesect = [];
   for ( let item of b ) {
